@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;    
+}
+#container{
+    width: 500px;
+    margin: 0 auto;
+}
+.add-task{
+    width: 100%;
+    outline: none;
+    background-color:#07e8f8;
+    font-size: 20px;
+    padding: 11px;
+}
+.delete{
+    height: 28px;
+    padding: 5px 0px;
+    border-radius: 3px;
+}
+.delete:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+ul li{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+    align-items: center;
+}
+ul li :hover{
+    background-color: greenyellow;
+}
+list input{
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+#list label{
+    position: relative;
+    cursor: pointer;
+}
+#total-tasks{
+margin-bottom: 20px;
+font-size: 13px;
+margin-left: 2px;
+color: grey;
+}
